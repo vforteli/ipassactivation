@@ -31,7 +31,7 @@ namespace androidactivationtest.Droid
             {
                 var profileId = FindViewById<EditText>(Resource.Id.profileId).Text;
                 var profilePin = FindViewById<EditText>(Resource.Id.profilePin).Text;
-                button.Text = $"{count++} clicks";
+                button.Text = GetString(Resource.String.activation_started_button);
                 ActivateIpass(profileId, profilePin);
             };
         }

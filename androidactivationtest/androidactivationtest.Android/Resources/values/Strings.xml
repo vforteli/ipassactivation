@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Start iPass activation</string>
-	<string name="app_name">androidactivationtest.Android</string>
+	<string name="start_activation_button">Start iPass activation</string>
+  <string name="activation_started_button">iPass activation running</string>
+	<string name="app_name">iPassActivationApp.Android</string>
 </resources>
