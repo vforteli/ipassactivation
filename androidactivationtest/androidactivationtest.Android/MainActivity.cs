@@ -18,12 +18,9 @@ namespace androidactivationtest.Droid
         {
             base.OnCreate(bundle);
             //_receiver = new IpassProvisionResultReceiver();
-            
-            // Set our view from the "main" layout resource
+
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
             var button = FindViewById<Button>(Resource.Id.myButton);
             FindViewById<EditText>(Resource.Id.profileId).Text = "11596";
             FindViewById<EditText>(Resource.Id.profilePin).Text = "8638";
