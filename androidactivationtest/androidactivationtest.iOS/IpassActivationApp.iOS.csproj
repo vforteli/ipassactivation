@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>5696be67-e536-4a07-b1de-77357702df04</ProjectGuid>
+    <ProjectGuid>{5696BE67-E536-4A07-B1DE-77357702DF04}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>androidactivationtest.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
@@ -121,6 +121,5 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
-  <Import Project="..\androidactivationtest\androidactivationtest.projitems" Label="Shared" Condition="Exists('..\androidactivationtest\androidactivationtest.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

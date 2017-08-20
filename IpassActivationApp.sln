@@ -3,15 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "androidactivationtest.Android", "androidactivationtest\androidactivationtest.Android\androidactivationtest.Android.csproj", "{F8AC81CF-98CC-4F45-BE25-EAC0074042E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpassActivationApp.Android", "androidactivationtest\androidactivationtest.Android\IpassActivationApp.Android.csproj", "{F8AC81CF-98CC-4F45-BE25-EAC0074042E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "androidactivationtest.iOS", "androidactivationtest\androidactivationtest.iOS\androidactivationtest.iOS.csproj", "{5696BE67-E536-4A07-B1DE-77357702DF04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpassActivationApp.iOS", "androidactivationtest\androidactivationtest.iOS\IpassActivationApp.iOS.csproj", "{5696BE67-E536-4A07-B1DE-77357702DF04}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "androidactivationtest", "androidactivationtest\androidactivationtest\androidactivationtest.shproj", "{BC7085A7-97A6-41E8-9D37-E9D31E174FCF}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "IpassActivationApp", "androidactivationtest\androidactivationtest\IpassActivationApp.shproj", "{BC7085A7-97A6-41E8-9D37-E9D31E174FCF}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		androidactivationtest\androidactivationtest\androidactivationtest.projitems*{bc7085a7-97a6-41e8-9d37-e9d31e174fcf}*SharedItemsImports = 13
+		androidactivationtest\androidactivationtest\androidactivationtest.projitems*{f8ac81cf-98cc-4f45-be25-eac0074042e4}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

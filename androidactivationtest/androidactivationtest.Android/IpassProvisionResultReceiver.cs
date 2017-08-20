@@ -19,7 +19,7 @@ namespace androidactivationtest.Droid
         public override void OnReceive(Context context, Intent intent)
         {
             var status = intent.GetIntExtra("EXTRA_RESULT", -1);
-            Toast.MakeText(context, $"Power Connected {status}", ToastLength.Long).Show();
+            Toast.MakeText(context, $"Activation result: {(IpassActivationResultStatus)status}", ToastLength.Long).Show();
         }
     };
 }

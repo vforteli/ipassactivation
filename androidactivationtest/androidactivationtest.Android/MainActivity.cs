@@ -23,19 +23,23 @@ namespace androidactivationtest.Droid
 
             // Get our button from the layout resource,
             // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.myButton);
+            var button = FindViewById<Button>(Resource.Id.myButton);
+            FindViewById<EditText>(Resource.Id.profileId).Text = "11596";
+            FindViewById<EditText>(Resource.Id.profilePin).Text = "8638";
 
             button.Click += delegate
             {
+                var profileId = FindViewById<EditText>(Resource.Id.profileId).Text;
+                var profilePin = FindViewById<EditText>(Resource.Id.profilePin).Text;
                 button.Text = $"{count++} clicks";
-                ActivateIpass("10691", "8854");
+                ActivateIpass(profileId, profilePin);
             };
         }
 
 
         private void ActivateIpass(String profileId, String pin)
         {
-            var provisionIntent = new Intent("android.intent.action.VIEW");            
+            var provisionIntent = new Intent("android.intent.action.VIEW");
             provisionIntent.SetData(Android.Net.Uri.Parse($"clientx://provision?pid={profileId}&pin={pin}"));
             Application.Context.StartService(provisionIntent);
         }
