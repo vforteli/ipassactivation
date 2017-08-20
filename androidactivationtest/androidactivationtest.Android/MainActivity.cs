@@ -9,15 +9,16 @@ using Android.OS;
 
 namespace androidactivationtest.Droid
 {
-    [Activity(Label = "androidactivationtest.Android", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "iPassActivationApp.Android", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
+        //private IpassProvisionResultReceiver _receiver;
 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
+            //_receiver = new IpassProvisionResultReceiver();
+            
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
