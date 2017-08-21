@@ -7,7 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-namespace androidactivationtest.Droid
+namespace FlexinetsIpassActivationApp.Droid
 {
     [Activity(Label = "iPassActivationApp.Android", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
@@ -43,5 +43,3 @@ namespace androidactivationtest.Droid
         }
     }
 }
-
-

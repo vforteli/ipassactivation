@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace androidactivationtest
+namespace FlexinetsIpassActivationApp
 {
     public enum IpassActivationResultStatus
     {

@@ -2,7 +2,7 @@
 
 using UIKit;
 
-namespace androidactivationtest.iOS
+namespace FlexinetsIpassActivationApp.iOS
 {
 	public partial class ViewController : UIViewController
 	{

@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace androidactivationtest.Droid
+namespace FlexinetsIpassActivationApp.Droid
 {
     [BroadcastReceiver(Enabled = true, Exported = true)]
     [IntentFilter(new[] { "client_x.android.prov.result" })]

@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace androidactivationtest.iOS
+namespace FlexinetsIpassActivationApp.iOS
 {
 	public class Application
 	{

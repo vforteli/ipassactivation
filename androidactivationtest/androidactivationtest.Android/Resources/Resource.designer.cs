@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("androidactivationtest.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("FlexinetsIpassActivationApp.Droid.Resource", IsApplication=true)]
 
-namespace androidactivationtest.Droid
+namespace FlexinetsIpassActivationApp.Droid
 {
 	
 	

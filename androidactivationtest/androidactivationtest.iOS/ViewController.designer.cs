@@ -7,7 +7,7 @@ using Foundation;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace androidactivationtest.iOS
+namespace FlexinetsIpassActivationApp.iOS
 {
 	[Register ("ViewController")]
 	partial class ViewController
