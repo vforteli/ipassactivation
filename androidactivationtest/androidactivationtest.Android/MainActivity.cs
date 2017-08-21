@@ -27,10 +27,26 @@ namespace FlexinetsIpassActivationApp.Droid
 
             button.Click += delegate
             {
+                var profileIdView = FindViewById<EditText>(Resource.Id.profileId);
+                var profileIdLayout = FindViewById<Android.Support.Design.Widget.TextInputLayout>(Resource.Id.profile_id_layout);
+
                 var profileId = FindViewById<EditText>(Resource.Id.profileId).Text;
                 var profilePin = FindViewById<EditText>(Resource.Id.profilePin).Text;
                 button.Text = GetString(Resource.String.activation_started_button);
-                ActivateIpass(profileId, profilePin);
+
+                if (string.IsNullOrWhiteSpace(profileIdView.Text))
+                {
+                    profileIdLayout.ErrorEnabled = true;
+                    profileIdLayout.Error = "Required...";
+                    //return false;
+                }
+                else
+                {
+                    profileIdLayout.ErrorEnabled = false;
+                    //return true;
+                }
+
+                //ActivateIpass(profileId, profilePin);
             };
         }
 
@@ -40,6 +56,6 @@ namespace FlexinetsIpassActivationApp.Droid
             var provisionIntent = new Intent("android.intent.action.VIEW");
             provisionIntent.SetData(Android.Net.Uri.Parse($"clientx://provision?pid={profileId}&pin={pin}"));
             Application.Context.StartService(provisionIntent);
-        }
+        }        
     }
 }

@@ -3,4 +3,6 @@
 	<string name="start_activation_button">Start iPass activation</string>
   <string name="activation_started_button">iPass activation running</string>
 	<string name="app_name">iPassActivationApp.Android</string>
+  <string name="profile_id">Profile Id</string>
+  <string name="profile_pin">Pin</string>
 </resources>

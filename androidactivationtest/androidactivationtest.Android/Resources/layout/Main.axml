@@ -3,16 +3,28 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <EditText
-        android:inputType="number"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/profile_id_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/profileId" />
-    <EditText        
-        android:inputType="number"
+        android:layout_height="wrap_content">
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:hint="@string/profile_id"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileId" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/profile_pin_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/profilePin" />
+        android:layout_height="wrap_content">
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:hint="@string/profile_pin"
+            android:layout_height="wrap_content"
+            android:id="@+id/profilePin" />
+    </android.support.design.widget.TextInputLayout>
     <Button
         android:id="@+id/myButton"
         android:layout_width="match_parent"
