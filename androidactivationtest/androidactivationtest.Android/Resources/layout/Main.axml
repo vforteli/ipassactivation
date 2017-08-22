@@ -26,6 +26,7 @@
             android:id="@+id/profilePin" />
     </android.support.design.widget.TextInputLayout>
     <Button
+        android:background="@color/button_primary"
         android:id="@+id/myButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
