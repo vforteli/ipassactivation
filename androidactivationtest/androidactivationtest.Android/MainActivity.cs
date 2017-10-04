@@ -28,8 +28,8 @@ namespace FlexinetsIpassActivationApp.Droid
             // todo disable controls if ipass not installed
 
             var button = FindViewById<Button>(Resource.Id.myButton);
-            FindViewById<EditText>(Resource.Id.profileId).Text = "11596";
-            FindViewById<EditText>(Resource.Id.profilePin).Text = "8638";
+            FindViewById<EditText>(Resource.Id.profileId).Text = "28894";
+            FindViewById<EditText>(Resource.Id.profilePin).Text = "8907";
 
             button.Click += delegate
             {
